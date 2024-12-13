@@ -33,9 +33,10 @@ int main() {
                 eliminar();
                 break;
             case 6:
+                printf("Saliendo del programa...\n");
                 break;
             default:
-                printf("Opcion invalida.\n");
+                printf("Opcion invalida. Intente de nuevo.\n");
         }
     } while (opcion != 6);
 

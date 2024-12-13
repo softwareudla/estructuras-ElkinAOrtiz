@@ -11,7 +11,6 @@ struct Libro {
     char estado[11];
 };
 
-
 void agregar();
 void mostrar_libros();
 void buscar();
